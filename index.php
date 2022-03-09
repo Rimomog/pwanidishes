@@ -24,6 +24,7 @@ $_POST['email'], $_POST['phone'], $_POST['adults'], $_POST['children'], $_POST['
   <meta content="" name="keywords">
 
   <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/img/res.png" type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -530,7 +531,7 @@ $_POST['email'], $_POST['phone'], $_POST['adults'], $_POST['children'], $_POST['
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Parties</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>Ksh 99,000</span></p>
                   </div>
                   <p class="fst-italic">
                     Already into the weekend and you have no plan with your friends? Get to hang out at Pwani Dishes for a custom party,
@@ -650,9 +651,10 @@ $_POST['email'], $_POST['phone'], $_POST['adults'], $_POST['children'], $_POST['
                 <div class="field">
                 	<select id="table_pref" name="table_pref" required>
                 		<option disabled selected value="">--</option>
-                		<option value="Standard">Standard</option>
-                		<option value="Deluxe">Deluxe</option>
-                		<option value="Suite">Suite</option>
+                		<option value="Family Dining">Family Dining</option>
+                		<option value="Bar Height">Bar Height</option>
+                		<option value="Outdoor">Outdoor</option>
+                    <option value="Booth">Booth</option>
                 	</select>
                 </div>
                 <input type="submit" value="Reserve">
