@@ -1,0 +1,141 @@
+.table-reservation-form input,textarea,select {
+    outline: 0;
+}
+/* .table-reservation-form{
+    padding: 30px;
+} */
+
+.table-reservation-form input{
+    border-radius: 5px;
+}
+.table-reservation-form h1 {
+    margin: 0;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eceff2;
+    color: #6a737f;
+    font-weight: 600;
+    background-color: #f9fbfc;
+}
+.table-reservation-form h1 i {
+    padding-right: 10px;
+    font-size: 24px;
+}
+.table-reservation-form {
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+    border-radius: 10px;
+}
+.table-reservation-form .fields {
+    position: relative;
+    padding: 20px;
+}
+.table-reservation-form select {
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #c7c9cb 50%), linear-gradient(135deg, #c7c9cb 50%, transparent 50%), linear-gradient(to right, #dfe0e0, #dfe0e0);
+    background-position: calc(100% - 20px) 20px, calc(100% - 15px) 20px, calc(100% - 40px) 10px;
+    background-size: 5px 5px, 5px 5px, 1px 25px;
+    background-repeat: no-repeat;
+}
+.table-reservation-form select option:first-child {
+    display: none;
+ }
+.table-reservation-form input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #ddd;
+    filter: invert(0.8);
+}
+.table-reservation-form input[type="text"], 
+.table-reservation-form input[type="email"],
+.table-reservation-form input[type="date"],
+.table-reservation-form input[type="tel"],
+.table-reservation-form select {
+    display: flex;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #dfe0e0;
+    width: 100%;
+    flex-basis: 100%;
+    height: 47px;
+}
+.table-reservation-form input[type="text"]:focus, 
+.table-reservation-form input[type="email"]:focus,
+.table-reservation-form input[type="tel"]:focus,
+.table-reservation-form input[type="date"]:focus,
+.table-reservation-form select:focus {
+    border: 1px solid #c6c7c7;
+}
+.table-reservation-form input[type="text"]::placeholder, 
+.table-reservation-form input[type="email"]::placeholder, 
+.table-reservation-form input[type="tel"]::placeholder, 
+.table-reservation-form input[type="date"]:invalid, 
+.table-reservation-form textarea::placeholder,
+.table-reservation-form select:invalid {
+    color: #858688;
+}
+.table-reservation-form textarea {
+    resize: none;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #dfe0e0;
+    width: 100%;
+    height: 150px;
+}
+.table-reservation-form textarea:focus {
+    border: 1px solid #c6c7c7;
+}
+.table-reservation-form input[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 0;
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.table-reservation-form input[type="submit"]:hover {
+    background-color: orange;
+}
+.table-reservation-form input[name="email"] {
+    position: relative;
+    display: block;
+}
+.table-reservation-form .field {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.table-reservation-form label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8e939b;
+}
+.table-reservation-form .field i {
+    position: absolute;
+    color: #dfe2e5;
+    top: 25px;
+    left: 15px;
+    z-index: 10;
+}
+.table-reservation-form .field i ~ input {
+    padding-left: 45px !important;
+}
+.table-reservation-form .responses {
+    padding: 15px;
+    margin: 0;
+}
+.table-reservation-form .fields .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.table-reservation-form .fields .wrapper > div {
+    width: 100%;
+}
+.table-reservation-form .fields .wrapper .gap {
+    width: 35px;
+}
